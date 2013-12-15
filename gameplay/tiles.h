@@ -1,0 +1,33 @@
+#ifndef GAMEPLAY_TILES_H
+#define GAMEPLAY_TILES_H
+
+enum {
+    T_KEY=1,
+    T_SWITCHL_UP,
+    T_SWITCHR_UP,
+    T_SWITCHL_DOWN,
+    T_SWITCHR_DOWN,
+    
+    T_ROCK,
+    T_STONE,
+    T_LADDER,
+    T_FISH,
+    T_GRASS_TOP,
+    T_PLAYER_FACE,
+    
+    T_CURSOR=17,
+    T_CHEST=19,
+    T_CHEST_OPEN,
+    T_COIN=21,
+    
+    T_GRASS_BLOCK=T_GRASS_TOP+16,
+    T_GRASS_MIX=T_GRASS_BLOCK+16,
+    T_UNDERGROUND=T_GRASS_MIX+16,
+    
+    T_SAND_1=T_GRASS_BLOCK+1,
+    T_SAND_2,
+    T_SAND_3,
+};
+
+#endif
+
